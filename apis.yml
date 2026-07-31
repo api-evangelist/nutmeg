@@ -1,7 +1,26 @@
 aid: nutmeg
-name: nutmeg
-description: nutmeg is a company surfaced as a portfolio company of balderton-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nutmeg.png
+name: Nutmeg (J.P. Morgan Personal Investing)
+description: >-
+  Nutmeg is a UK digital wealth manager and robo-advisor founded in 2011 and acquired by
+  JPMorgan Chase in 2021, now operating as J.P. Morgan Personal Investing. It offers consumer
+  investment accounts including Stocks and Shares ISAs, Lifetime ISAs, Junior ISAs, personal
+  pensions, and general investment accounts, with fully managed, Smart Alpha, socially
+  responsible, thematic, fixed allocation, and income portfolio strategies plus free financial
+  guidance and paid advice. Nutmeg is authorised and regulated by the UK Financial Conduct
+  Authority (FCA register #552016). It is a consumer-facing wealth platform and does not
+  publish a public developer API, OpenAPI specification, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/nutmeg/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Wealth Management
+- Robo-Advisor
+- Investing
+- Fintech
+- Pensions
+- ISA
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.nutmeg.com/
+- type: Website
+  url: https://www.personalinvesting.jpmorgan.com/
+- type: Pricing
+  url: https://www.personalinvesting.jpmorgan.com/about/our-fee
+- type: TermsOfService
+  url: https://www.personalinvesting.jpmorgan.com/legal/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.personalinvesting.jpmorgan.com/legal/privacy-policy
+- type: Blog
+  url: https://www.personalinvesting.jpmorgan.com/insights
+- type: Support
+  url: https://support.personalinvesting.jpmorgan.com
+- type: DomainSecurity
+  url: security/nutmeg-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
